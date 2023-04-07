@@ -3,6 +3,6 @@
 function palindrome(str){
 	
 	str = str.replace(" ","").toLowerCase()
-	return str == str.reverse();
+	return str == str.split("")reverse().join("");
 }
 module.exports = palindrome
